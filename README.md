@@ -1,2 +1,18 @@
 # Straight_Jate
-a pwa text editor
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+##  Description
+
+
+## Usage: 
+
+
+## Screenshots:
+
+![screenshot for Straight Jate application](./)
+![screenshot 2 for Straight Jate application](./)
+![screenshot 3 for Straight Jate application](./)
+
+
+## Credits:
