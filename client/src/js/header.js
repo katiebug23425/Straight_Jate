@@ -1,6 +1,6 @@
 const header = `
 /*
-       _____  ____________
+     _____  ____________
       / /   |/_  __/ ____/
  __  / / /| | / / / __/   
 / /_/ / ___ |/ / / /___   
@@ -8,5 +8,7 @@ const header = `
 just another text editor
 */                          
 `;
+
+console.log('%c' + header, 'color: blue');
 
 export { header };
