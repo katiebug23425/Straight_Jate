@@ -36,7 +36,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Straight Jate",
-        short_name: "Straight Jate",
+        short_name: "Jate",
         description: "Just Another Text Edcitor, A simple note-taking app",
         background_color: "#ffffff",
         theme_color: "#2196f3",
