@@ -24,7 +24,7 @@ module.exports = () => {
       // webpack plugin to generate an HTML file to serve the bundle
       new HtmlWebpackPlugin({
         title: "Straight Jate",
-        template: "./src/index.html",
+        template: "./index.html",
       }),
       // Injects a service worker into the app bundle
       new InjectManifest({
@@ -37,14 +37,14 @@ module.exports = () => {
         inject: true,
         name: "Straight Jate",
         short_name: "Jate",
-        description: "Just Another Text Edcitor, A simple note-taking app",
+        description: "Just Another Text Editor, A simple note-taking app",
         background_color: "#ffffff",
         theme_color: "#2196f3",
         start_url: "/",
         publicPath: "/",
         icons: [
           {
-            src: path.resolve("src/img/icon.png"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
