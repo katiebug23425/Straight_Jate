@@ -29,7 +29,7 @@ module.exports = () => {
       // Injects a service worker into the app bundle
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "sw.js",
+        swDest: "src-sw.js",
       }),
       // webpack plugin to generate a manifest file
       new WebpackPwaManifest({
